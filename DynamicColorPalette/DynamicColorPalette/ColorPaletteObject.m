@@ -25,6 +25,7 @@
 @property (nonatomic, assign) CGFloat brightness;
 
 @property (nonatomic, strong) UIColor *color;
+@property (nonatomic, assign) int sameColorCounter;
 
 
 @end
@@ -33,6 +34,8 @@
 
 - (void)setRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha
 {
+    self.sameColorCounter = 0;
+    
     self.red = red;
     self.green = green;
     self.blue = blue;
@@ -79,6 +82,10 @@
         self.brightness = maxRGB;
         
     }
+}
+
+- (void) incrementSameColorCounter{
+    self.sameColorCounter++;
 }
 
 - (CGFloat) getRed
@@ -139,6 +146,10 @@
 - (UIColor *) getUIColor
 {
     return self.color;
+}
+
+- (CGFloat) getSameColorCounter{
+    return self.sameColorCounter;
 }
 
 @end

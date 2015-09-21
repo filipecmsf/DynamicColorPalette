@@ -11,7 +11,8 @@
 
 @interface ColorPaletteObject : NSObject
 
-- (void)setRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
+- (void) setRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
+- (void) incrementSameColorCounter;
 
 - (CGFloat) getRed;
 - (CGFloat) getGreen;
@@ -26,6 +27,8 @@
 - (CGFloat) getHue;
 - (CGFloat) getSaturation;
 - (CGFloat) getBrightness;
+
+- (CGFloat) getSameColorCounter;
 
 - (UIColor *) getUIColor;
 

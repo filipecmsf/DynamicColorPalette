@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3904EFD91BAC9F3F00ADAC48 /* photo-06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3904EFD81BAC9F3F00ADAC48 /* photo-06.jpg */; };
+		3904EFDB1BACA32000ADAC48 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3904EFDA1BACA32000ADAC48 /* 2.jpg */; };
+		3904EFDD1BACAA6400ADAC48 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3904EFDC1BACAA6400ADAC48 /* 1.jpg */; };
+		3904EFDF1BACAB4E00ADAC48 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3904EFDE1BACAB4E00ADAC48 /* 0.jpg */; };
+		3904EFE11BB0817900ADAC48 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3904EFE01BB0817900ADAC48 /* 3.jpg */; };
 		39DC97951BA7036400F26CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC97941BA7036400F26CD7 /* main.m */; };
 		39DC97981BA7036400F26CD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC97971BA7036400F26CD7 /* AppDelegate.m */; };
 		39DC979B1BA7036400F26CD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC979A1BA7036400F26CD7 /* ViewController.m */; };
@@ -31,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3904EFD81BAC9F3F00ADAC48 /* photo-06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photo-06.jpg"; sourceTree = "<group>"; };
+		3904EFDA1BACA32000ADAC48 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		3904EFDC1BACAA6400ADAC48 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		3904EFDE1BACAB4E00ADAC48 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		3904EFE01BB0817900ADAC48 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		39DC978F1BA7036400F26CD7 /* DynamicColorPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicColorPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39DC97931BA7036400F26CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39DC97941BA7036400F26CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,12 +101,17 @@
 		39DC97911BA7036400F26CD7 /* DynamicColorPalette */ = {
 			isa = PBXGroup;
 			children = (
-				39DC97B81BA7039C00F26CD7 /* Chrome.png */,
 				39DC97B91BA7039C00F26CD7 /* ColorPalette.h */,
 				39DC97BA1BA7039C00F26CD7 /* ColorPalette.m */,
 				39DC97BB1BA7039C00F26CD7 /* ColorPaletteObject.h */,
 				39DC97BC1BA7039C00F26CD7 /* ColorPaletteObject.m */,
 				39DC97BD1BA7039C00F26CD7 /* search.png */,
+				3904EFD81BAC9F3F00ADAC48 /* photo-06.jpg */,
+				3904EFE01BB0817900ADAC48 /* 3.jpg */,
+				3904EFDA1BACA32000ADAC48 /* 2.jpg */,
+				3904EFDC1BACAA6400ADAC48 /* 1.jpg */,
+				3904EFDE1BACAB4E00ADAC48 /* 0.jpg */,
+				39DC97B81BA7039C00F26CD7 /* Chrome.png */,
 				39DC97961BA7036400F26CD7 /* AppDelegate.h */,
 				39DC97971BA7036400F26CD7 /* AppDelegate.m */,
 				39DC97991BA7036400F26CD7 /* ViewController.h */,
@@ -215,10 +230,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3904EFDF1BACAB4E00ADAC48 /* 0.jpg in Resources */,
 				39DC97C11BA7039C00F26CD7 /* search.png in Resources */,
 				39DC979E1BA7036400F26CD7 /* Main.storyboard in Resources */,
+				3904EFDB1BACA32000ADAC48 /* 2.jpg in Resources */,
 				39DC97A31BA7036400F26CD7 /* LaunchScreen.xib in Resources */,
+				3904EFE11BB0817900ADAC48 /* 3.jpg in Resources */,
 				39DC97A01BA7036400F26CD7 /* Images.xcassets in Resources */,
+				3904EFDD1BACAA6400ADAC48 /* 1.jpg in Resources */,
+				3904EFD91BAC9F3F00ADAC48 /* photo-06.jpg in Resources */,
 				39DC97BE1BA7039C00F26CD7 /* Chrome.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +456,7 @@
 				39DC97B41BA7036400F26CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39DC97B51BA7036400F26CD7 /* Build configuration list for PBXNativeTarget "DynamicColorPaletteTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +465,7 @@
 				39DC97B71BA7036400F26CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

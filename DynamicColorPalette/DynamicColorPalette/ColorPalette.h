@@ -11,6 +11,12 @@
 
 @interface ColorPalette : NSObject
 
-- (NSArray*)setImage:(UIImage*)image;
+- (void)setImage:(UIImage*)image;
+
 -(UIColor *) getVibrantColor;
+-(UIColor *) getVibrantLightColor;
+-(UIColor *) getVibrantDarkColor;
+-(UIColor *) getMutedColor;
+-(UIColor *) getMutedLightColor;
+-(UIColor *) getMutedDarkColor;
 @end
